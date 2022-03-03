@@ -4,7 +4,7 @@
 //Link shortcut: https://www.icloud.com/shortcuts/bdbba3de9c8d42fe858bf210d20e5603
 
 [Script]
-IPA = type=http-request,pattern=(https:\/\/(.+\-|)buy\.itunes\.apple\.com\/WebObjects\/MZBuy.woa\/wa\/buyProduct)|(https:\/\/api\.unlimapps\.com\/.+\/apple_apps\/.+\/versions?),script-path=https://nullptrx.github.io/surge/scripts/ipa.js,requires-body=1,max-size=0,debug=true
+IPA = type=http-request,pattern=(https:\/\/(.+\-|)buy\.itunes\.apple\.com\/WebObjects\/MZBuy.woa\/wa\/buyProduct)|(https:\/\/api\.unlimapps\.com\/.+\/apple_apps\/.+\/versions?),script-path=https://nullptrx.github.io/surge/script/ipa.js,requires-body=1,max-size=0,debug=true
 
 [MITM]
 hostname = %APPEND% *-buy.itunes.apple.com, api.unlimapps.com
